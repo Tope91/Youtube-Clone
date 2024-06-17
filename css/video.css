@@ -1,0 +1,30 @@
+.vid-time{
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+ padding: 4px;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
+
+@media (max-width: 800px) {
+  .vid-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1289px) {
+  .vid-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1290px) {
+  .vid-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
