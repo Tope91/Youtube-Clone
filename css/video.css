@@ -9,22 +9,26 @@
   position: absolute;
   bottom: 8px;
   right: 5px;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
   .vid-grid{
     grid-template-columns: 1fr 1fr;
+    cursor: pointer;
   }
 }
 
 @media (min-width: 800px) and (max-width: 1289px) {
   .vid-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    cursor: pointer;
   }
 }
 
 @media (min-width: 1290px) {
   .vid-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    cursor: pointer;
   }
 }
